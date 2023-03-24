@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+background: linear-gradient(to right bottom , #273c75 , #079992);
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  padding: 40px 0;
+}
+
+header{
+  max-width: 800px;
+  margin: 0 auto;
+}
+ header img{
+  display: block;
+  max-width: 80%;
+  border-radius: 10px;
+  height: 420px;
+ }
+
+ .picturecdiv--list{
+  text-align: center;
+ }
+
+.picturecdiv--list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+}
+
+.picturecdiv--list ul li{
+  display: inline-block;
+  margin:  0 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.picturecdiv--list ul li img{
+  display: block;
+  width: 90px;
+  height: 100px;
+  border-radius: 10px;
+}
